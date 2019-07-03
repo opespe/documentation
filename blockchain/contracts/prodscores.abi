@@ -1,0 +1,46 @@
+{
+  "version": "eosio::abi/1.1",
+  "types": [],
+  "structs": [{
+      "name": "prodscore",
+      "base": "",
+      "fields": [{
+          "name": "producer",
+          "type": "name"
+        },{
+          "name": "score",
+          "type": "float32"
+        }
+      ]
+    },{
+      "name": "store",
+      "base": "",
+      "fields": [{
+          "name": "producer",
+          "type": "name"
+        },{
+          "name": "score",
+          "type": "float32"
+        }
+      ]
+    }
+  ],
+  "actions": [{
+      "name": "store",
+      "type": "store",
+      "ricardian_contract": ""
+    }
+  ],
+  "tables": [{
+      "name": "prodscores",
+      "index_type": "i64",
+      "key_names": [],
+      "key_types": [],
+      "type": "prodscore"
+    }
+  ],
+  "ricardian_clauses": [],
+  "error_messages": [],
+  "abi_extensions": [],
+  "variants": []
+}
