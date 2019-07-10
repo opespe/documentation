@@ -44,7 +44,7 @@ Next, create another account name that you want to represent your Access Node ac
 
 ### Info Service Creation
 
-To incorporate Opes with a community, a specific endpoint must be provided, which supplies information about that community. The [CN Service](../deployment/README.md) must be at an externally accessible location so Opes can find it. Note the fully qualified URL (e.g. `https://access.example-org.com`) as `Community Info URL`.
+To incorporate Opes with a community, a specific endpoint must be provided, which supplies information about that community. The [CN Service](../deployment/README.md) must be at an externally accessible location so OPES can find it. Note the fully qualified URL (e.g. `https://access.example-org.com`) as `Community Info URL`.
 
 ### Nominator Names
 
