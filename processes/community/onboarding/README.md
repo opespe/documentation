@@ -38,7 +38,7 @@ Next, create another account name that you want to represent your Access Node ac
 
 #### Account Naming Rules
 - The account name must be exactly twelve (12) characters
-- The account name may use any lowercase letter from a-z, the numbers 1-5, and period (".").
+- The account name may use any lowercase letter from a-z and the numbers 1-5
 - The account name must start with a letter. 
 - **Note**: In additon to requesting an invalid format name, using any profanity or offensive language in the name will result in the request being rejected
 
