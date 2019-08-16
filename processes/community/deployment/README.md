@@ -1,4 +1,6 @@
-# Community Node Service Configuration and Deployment
+# Community Node Service Configuration and Deployment (EXTERNAL)
+
+**Version: 0.2.0**
 
 ## Description
 
@@ -6,7 +8,9 @@ The Community Node Service is the content manager for the Community Node and its
 
 ## Community Node Reference Service
 
-A reference CN Service, written as a NodeJS server with Express, is available to use as a framework for building out additional capabilities.
+A reference CN Service, written as a NodeJS server with Express, is available to use as a framework for building out additional capabilities. 
+
+Note that using this specific implementation is not a requirement; the reference service is a suggestion only. 
 
 [GitHub Repository for Community Node Source](https://github.com/opespe/cn-service-reference.git)
 
@@ -25,16 +29,7 @@ Follow these steps to configure the reference CN Service on the local machine.
 
 #### 1. Edit Info
 
-Modify the `/data/info.json` file to use your desired values. 
-
-**Example info.json**
-```
-{
-    "title": "My Community Node",
-    "summary": "My Example Community Node",
-    "website": "https://example.com"
-}
-```
+Modify the `/data/info.json` file to use your desired values according to the [Community Node Service Info Spec](./community_info_spec.md)
 
 #### 2. Edit Landing Page
 
@@ -44,7 +39,9 @@ Modify the `/data/index.html` file to display your desired landing page.
 
 Modify the `/data/icon.png` file to display your desired avatar icon. 
 
-Note: The icon size should be 120px by 120px. The file should be a PNG.
+**Note:** The icon size should be 120px by 120px. The file should be a PNG.
+
+**Note:** If you are running behind a proxy, the app will try to resolve the host using the `X-Forwarded-Host` header of the request. If this does not work in your environment, you may need to explicitly define the icon url in the **info.json**. For example, given the Community Node's FQDN is `example-cn.com` the value for the icon key would be set to `https://example-cn.com/icon.png`).
 
 #### 4. Install and Run
 
@@ -71,14 +68,4 @@ If you have an existing web server, you may simply add the info endpoint to the 
 
 #### Return Object
 
-The endpoint should return a JSON object with the same field names as below. These fields will be visible to Personal Nodes through the mobile app when they are exploring communities. 
-
-```
-{
-    "title": "My Community Node",
-    "summary": "My Example Community Node",
-    "website": "https://example.com"
-    "icon": "[BASE64-ENCODED-PNG]"
-}
-```
-
+The endpoint should return a JSON object with the proper field names and values according to the [Community Node Service Info Spec](./community_info_spec.md). These fields will be visible to Personal Nodes through the mobile app when they are exploring communities. 
