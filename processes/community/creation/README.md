@@ -1,13 +1,18 @@
 
 # Community Node Creation
 
-Community Nodes can be created by purchasing a Community Node License on the OPES Blockchain for 3838 PE. To ease the initial onboarding process, the founding Community Nodes will be granted an amount of free referrals that they can use to create another Community Node. These referrals are tracked through "tickets", an asset within the OPES Blockchain. Creating a CN with a ticket will expend the ticket.
+Community Nodes can be created by purchasing a Community Node License on the OPES Blockchain for 3838 PE.
+To bootstrap the Community Node network, there will be 20 Community Nodes granted the ability to acquire
+50 Keys each that they can use to create 50 Community Node.
+These new created CN's are tracked through a unique token, an asset within the OPES Blockchain.
+Creating a CN with this unique token will expend the token from the system.
 
-In order to obtain CN creation tickets, contact the OPES ONE Community.
+To be considered for one of the 20 Community Nodes that can help bootstrap the Community Node Network,
+contact the OPES.ONE at support@opes.one
 
 ## References
 
-- [EOS Docker Reference](https://developers.eos.io/eosio-nodeos/docs/docker)
+- [eosio Docker Reference](https://developers.eos.io/eosio-nodeos/docs/docker)
 
 ## Prerequisite 
 
