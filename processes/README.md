@@ -5,6 +5,7 @@
 - [Community Node](./community/README.md)
   - [Onboarding](./community/onboarding/README.md)
   - [Deployment](./community/deployment/README.md)
+  - [Creation](./community/creation/README.md)
 - [Access Node](./access/README.md)
   - [Onboarding](./access/onboarding/README.md)
   - [Deployment](./access/deployment/README.md)

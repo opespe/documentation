@@ -7,6 +7,7 @@
   - [Community Node](./processes/community/README.md)
     - [Onboarding](./processes/community/onboarding/README.md)
     - [Deployment](./processes/community/deployment/README.md)
+    - [Creation](./processes/community/creation/README.md)
   - [Access Node](./processes/access/README.md)
     - [Onboarding](./processes/access/onboarding/README.md)
     - [Deployment](./processes/access/deployment/README.md)
