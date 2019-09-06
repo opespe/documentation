@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Blockchain](./blockchain/README.md)
-- Processes(./processes/README.md)
+- [Processes](./processes/README.md)
   - [Community Node](./processes/community/README.md)
     - [Onboarding](./processes/community/onboarding/README.md)
     - [Deployment](./processes/community/deployment/README.md)
