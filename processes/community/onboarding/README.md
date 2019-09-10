@@ -28,10 +28,10 @@ Generate public/private key-pairs that will control your new Community Node and 
 4. Open a new browser window or tab, then follow steps 1-3 again to create a `Community Active Key Pair`. 
    - This key pair provides direct access to your account on-chain. Store it safely, in the same manner as the `Community Owner Key Pair`!
 
-5. To delegate some working permissions to another account without exposing the primary keys the new account (e.g. an Infrastructure Node maintained by a cloud service provider), additional *Work Keys* should be created. Create these *Work Keys* by twice repeating steps 1-4 above.
+5. To allow someone else to run your AN or IN service without exposing the primary keys on your new account (e.g. deploying an Infrastructure Node maintained by a cloud service provider), additional *Work Keys* should be created. Create these *Work Keys* by twice repeating steps 1-4 above.
     - The following permissions are given to the *Work Keys*
-      - **Infrastructure Node Work Key**: Create Blocks, submit puzzles for scheduling
-      - **Access Node Work Key**: Sign tallies from Personal Nodes, submit to Batching Service
+      - **Infrastructure Node Work Key**: Create Blocks
+      - **Access Node Work Key**: Sign tallies from Personal Nodes
     - **NOTE**: This step is optional if it is desired to use the same keys for all actions. In that case, simply reuse the same `Community Active Key Pair` as the new *Work Keys*
     - Label the *Work Key* key pairs as listed below:
         - `Access Node Work Key Pair`
@@ -44,15 +44,15 @@ Create an account name (following the rules below) that you want to represent yo
 
 ### Account Naming Rules
 - The account name must be between one (1) and twelve (12) characters
-- The account name may use any lowercase letter from a-z, the numbers 1-5, and period (".")
-- The account name must not end with a period (".") 
+- The account name may use any lowercase letter from a-z, the numbers 1-5, and period (".").
+- The account name must not end with a period ("."). 
 - **Note**: In additon to requesting an invalid format name, using any profanity or offensive language in the name will result in the request being rejected
 
 ## Info Service Creation (OPTIONAL)
 
 To incorporate OPES with a community, a specific endpoint must be provided which supplies information about that community. The [CN Info Service](../deployment/README.md) must be at an externally accessible location so OPES can find it. Note the fully qualified URL (e.g. `https://access.example-org.com`) as `Community Info URL`.
 
-**NOTE**: This step may be skipped if the `Community Info URL` is known. The `CN Info Service` does not need to be deployed to completed this process, only for the Community Node's information to be properly displayed to OPES users.  
+**NOTE**: The `CN Info Service` does not need to be deployed to complete this process, only for the Community Node's information to be properly displayed to OPES users. Deploying the CN Service may be skipped as long as the future `Community Info URL` is known.   
 
 ## Nominator Names
 
