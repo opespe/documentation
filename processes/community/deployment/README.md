@@ -1,4 +1,4 @@
-# Community Node Service Configuration and Deployment (EXTERNAL)
+# Community Node Service Configuration and Deployment
 
 **Version: 0.2.0**
 
