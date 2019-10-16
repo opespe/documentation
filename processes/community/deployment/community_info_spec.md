@@ -7,7 +7,7 @@ This document describes the format of the information that should be supplied by
 The data structure is [JSON](http://json-schema.org/specification.html).
 
 
-<em> Note: The content of this section is based on the [EOS BP Information Standard](https://github.com/eosrio/bp-info-standard) </em>
+<em> Note: The content of this section is based on the [OPES Community BP Information Standard](https://github.com/opes-community/data-schemas/tree/master/community-node-info) </em>
 
 ## Info Fields
 

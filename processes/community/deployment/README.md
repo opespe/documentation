@@ -41,7 +41,7 @@ Modify the `/data/icon.png` file to display your desired avatar icon.
 
 **Note:** The icon size should be 120px by 120px. The file should be a PNG.
 
-**Note:** If you are running behind a proxy, the app will try to resolve the host using the `X-Forwarded-Host` header of the request. If this does not work in your environment, you may need to explicitly define the icon url in the **info.json**. For example, given the Community Node's FQDN is `example-cn.com` the value for the icon key would be set to `https://example-cn.com/icon.png`).
+**Note:** If you are running behind a proxy the app will try to resolve the host using the `X-Forwarded-Host` header of the request. If this does not work in your environment you may need to explicitly define the icon url in the **info.json**. For example, given the Community Node's FQDN is `example-cn.com` the value for the icon key would be set to `https://example-cn.com/icon.png`).
 
 #### 4. Install and Run
 
